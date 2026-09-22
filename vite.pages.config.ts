@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 
 /** Static client build for GitHub Pages. Dev preview keeps using vite.config.ts. */
 export default defineConfig({
-  base: "/snakes-and-ladders-slots/",
+  base: "https://cdn.jsdelivr.net/gh/jbirney01-code/snakes-and-ladders-slots@gh-pages/",
   plugins: [
     tailwindcss(),
     tanstackStart({
